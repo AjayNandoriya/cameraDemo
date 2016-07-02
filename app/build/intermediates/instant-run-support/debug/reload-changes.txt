@@ -1,0 +1,2 @@
+CHANGED,C:\Users\user\AndroidStudioProjects\cameraDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\user\AndroidStudioProjects\cameraDemo\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\dext\camerademo\CameraView$override.class

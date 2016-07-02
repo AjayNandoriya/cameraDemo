@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/mnt/bamboo-ebs/bamboo-agent/build-dir/ANDROIDPLOT-BLG-DEP/androidplot-core/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="enum" name="domainLabelAnchorPosition">
+        <enum name="top_middle" value="0"/>
+        <enum name="left_top" value="1"/>
+        <enum name="left_middle" value="2"/>
+        <enum name="left_bottom" value="3"/>
+        <enum name="right_top" value="4"/>
+        <enum name="right_middle" value="5"/>
+        <enum name="right_bottom" value="6"/>
+        <enum name="bottom_middle" value="7"/>
+        <enum name="center" value="8"/>
+    </attr>
+    <attr format="enum" name="domainLabelHeightSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="domainLabelLayoutStyleX">
+        <enum name="absolute_from_left" value="0"/>
+        <enum name="absolute_from_right" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_left" value="3"/>
+        <enum name="relative_from_right" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="domainLabelLayoutStyleY">
+        <enum name="absolute_from_top" value="0"/>
+        <enum name="absolute_from_bottom" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_top" value="3"/>
+        <enum name="relative_from_bottom" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="domainLabelWidthSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="domainStepMode">
+        <enum name="subdivide" value="0"/>
+        <enum name="increment_by_val" value="1"/>
+        <enum name="increment_by_pixels" value="2"/>
+    </attr>
+    <attr format="enum" name="graphAnchorPosition">
+        <enum name="top_middle" value="0"/>
+        <enum name="left_top" value="1"/>
+        <enum name="left_middle" value="2"/>
+        <enum name="left_bottom" value="3"/>
+        <enum name="right_top" value="4"/>
+        <enum name="right_middle" value="5"/>
+        <enum name="right_bottom" value="6"/>
+        <enum name="bottom_middle" value="7"/>
+        <enum name="center" value="8"/>
+    </attr>
+    <attr format="enum" name="graphHeightSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="graphLayoutStyleX">
+        <enum name="absolute_from_left" value="0"/>
+        <enum name="absolute_from_right" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_left" value="3"/>
+        <enum name="relative_from_right" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="graphLayoutStyleY">
+        <enum name="absolute_from_top" value="0"/>
+        <enum name="absolute_from_bottom" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_top" value="3"/>
+        <enum name="relative_from_bottom" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="graphWidthSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="legendAnchorPosition">
+        <enum name="top_middle" value="0"/>
+        <enum name="left_top" value="1"/>
+        <enum name="left_middle" value="2"/>
+        <enum name="left_bottom" value="3"/>
+        <enum name="right_top" value="4"/>
+        <enum name="right_middle" value="5"/>
+        <enum name="right_bottom" value="6"/>
+        <enum name="bottom_middle" value="7"/>
+        <enum name="center" value="8"/>
+    </attr>
+    <attr format="enum" name="legendHeightSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="legendIconHeightSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="legendIconWidthSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="legendLayoutStyleX">
+        <enum name="absolute_from_left" value="0"/>
+        <enum name="absolute_from_right" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_left" value="3"/>
+        <enum name="relative_from_right" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="legendLayoutStyleY">
+        <enum name="absolute_from_top" value="0"/>
+        <enum name="absolute_from_bottom" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_top" value="3"/>
+        <enum name="relative_from_bottom" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="legendWidthSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="previewMode">
+        <enum name="line_and_point" value="0"/>
+        <enum name="candlestick" value="1"/>
+        <enum name="bar" value="2"/>
+    </attr>
+    <attr format="enum" name="rangeLabelAnchorPosition">
+        <enum name="top_middle" value="0"/>
+        <enum name="left_top" value="1"/>
+        <enum name="left_middle" value="2"/>
+        <enum name="left_bottom" value="3"/>
+        <enum name="right_top" value="4"/>
+        <enum name="right_middle" value="5"/>
+        <enum name="right_bottom" value="6"/>
+        <enum name="bottom_middle" value="7"/>
+        <enum name="center" value="8"/>
+    </attr>
+    <attr format="enum" name="rangeLabelHeightSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="rangeLabelLayoutStyleX">
+        <enum name="absolute_from_left" value="0"/>
+        <enum name="absolute_from_right" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_left" value="3"/>
+        <enum name="relative_from_right" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="rangeLabelLayoutStyleY">
+        <enum name="absolute_from_top" value="0"/>
+        <enum name="absolute_from_bottom" value="1"/>
+        <enum name="absolute_from_center" value="2"/>
+        <enum name="relative_from_top" value="3"/>
+        <enum name="relative_from_bottom" value="4"/>
+        <enum name="relative_from_center" value="5"/>
+    </attr>
+    <attr format="enum" name="rangeLabelWidthSizeLayoutType">
+        <enum name="absolute" value="0"/>
+        <enum name="relative" value="1"/>
+        <enum name="fill" value="2"/>
+    </attr>
+    <attr format="enum" name="rangeStepMode">
+        <enum name="subdivide" value="0"/>
+        <enum name="increment_by_val" value="1"/>
+        <enum name="increment_by_pixels" value="2"/>
+    </attr>
+    <attr format="enum" name="renderMode">
+        <enum name="use_background_thread" value="0"/>
+        <enum name="use_main_thread" value="0"/>
+    </attr>
+    <!-- From: file:/mnt/bamboo-ebs/bamboo-agent/build-dir/ANDROIDPLOT-BLG-DEP/androidplot-core/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="ap_black">#000</color>
+    <color name="ap_charcoal">#111</color>
+    <color name="ap_gray">#888</color>
+    <color name="ap_transparent">#00000000</color>
+    <color name="ap_white">#FFF</color>
+    <color name="off_white">#EEE</color>
+    <declare-styleable name="Plot"><attr format="boolean" name="markupEnabled"/><attr name="renderMode"/><attr format="dimension" name="marginTop"/><attr format="dimension" name="marginBottom"/><attr format="dimension" name="marginLeft"/><attr format="dimension" name="marginRight"/><attr format="dimension" name="paddingTop"/><attr format="dimension" name="paddingBottom"/><attr format="dimension" name="paddingLeft"/><attr format="dimension" name="paddingRight"/><attr format="string" name="label"/><attr format="dimension" name="labelTextSize"/><attr format="color" name="labelTextColor"/><attr format="color" name="backgroundColor"/><attr format="color" name="borderColor"/><attr format="dimension" name="borderThickness"/></declare-styleable>
+    <declare-styleable name="pie.PieChart"><attr format="color" name="pieBorderColor"/><attr format="dimension" name="pieBorderThickness"/></declare-styleable>
+    <declare-styleable name="xy.XYPlot"><attr name="previewMode"/><attr name="domainStepMode"/><attr format="dimension|float|integer" name="domainStep"/><attr name="rangeStepMode"/><attr format="dimension|float|integer" name="rangeStep"/><attr format="string" name="domainLabel"/><attr format="color" name="domainLabelTextColor"/><attr format="dimension" name="domainLabelTextSize"/><attr name="domainLabelHeightSizeLayoutType"/><attr name="domainLabelWidthSizeLayoutType"/><attr format="dimension|float|integer" name="domainLabelHeight"/><attr format="dimension|float|integer" name="domainLabelWidth"/><attr name="domainLabelLayoutStyleX"/><attr name="domainLabelLayoutStyleY"/><attr format="dimension|float|integer" name="domainLabelPositionX"/><attr format="dimension|float|integer" name="domainLabelPositionY"/><attr name="domainLabelAnchorPosition"/><attr format="boolean" name="domainLabelVisible"/><attr format="string" name="rangeLabel"/><attr format="color" name="rangeLabelTextColor"/><attr format="dimension" name="rangeLabelTextSize"/><attr name="rangeLabelHeightSizeLayoutType"/><attr name="rangeLabelWidthSizeLayoutType"/><attr format="dimension|float|integer" name="rangeLabelHeight"/><attr format="dimension|float|integer" name="rangeLabelWidth"/><attr name="rangeLabelLayoutStyleX"/><attr name="rangeLabelLayoutStyleY"/><attr format="dimension|float|integer" name="rangeLabelPositionX"/><attr format="dimension|float|integer" name="rangeLabelPositionY"/><attr name="rangeLabelAnchorPosition"/><attr format="boolean" name="rangeLabelVisible"/><attr name="graphHeightSizeLayoutType"/><attr name="graphWidthSizeLayoutType"/><attr format="dimension|float|integer" name="graphHeight"/><attr format="dimension|float|integer" name="graphWidth"/><attr name="graphLayoutStyleX"/><attr name="graphLayoutStyleY"/><attr format="dimension|float|integer" name="graphPositionX"/><attr format="dimension|float|integer" name="graphPositionY"/><attr name="graphAnchorPosition"/><attr format="boolean" name="graphVisible"/><attr format="dimension" name="graphMarginTop"/><attr format="dimension" name="graphMarginBottom"/><attr format="dimension" name="graphMarginLeft"/><attr format="dimension" name="graphMarginRight"/><attr format="dimension" name="graphPaddingTop"/><attr format="dimension" name="graphPaddingBottom"/><attr format="dimension" name="graphPaddingLeft"/><attr format="dimension" name="graphPaddingRight"/><attr format="dimension" name="gridMarginTop"/><attr format="dimension" name="gridMarginBottom"/><attr format="dimension" name="gridMarginLeft"/><attr format="dimension" name="gridMarginRight"/><attr format="dimension" name="gridPaddingTop"/><attr format="dimension" name="gridPaddingBottom"/><attr format="dimension" name="gridPaddingLeft"/><attr format="dimension" name="gridPaddingRight"/><attr format="dimension" name="domainTickLabelWidth"/><attr format="dimension" name="rangeTickLabelWidth"/><attr format="color" name="graphBackgroundColor"/><attr format="dimension" name="graphDomainLineThickness"/><attr format="dimension" name="graphRangeLineThickness"/><attr format="color" name="graphDomainLineColor"/><attr format="color" name="graphRangeLineColor"/><attr format="dimension" name="rangeTickLabelTextSize"/><attr format="dimension" name="domainTickLabelTextSize"/><attr format="color" name="rangeTickLabelTextColor"/><attr format="color" name="domainTickLabelTextColor"/><attr format="dimension" name="rangeOriginTickLabelTextSize"/><attr format="dimension" name="domainOriginTickLabelTextSize"/><attr format="color" name="rangeOriginTickLabelTextColor"/><attr format="color" name="domainOriginTickLabelTextColor"/><attr format="dimension" name="domainOriginLineThickness"/><attr format="dimension" name="rangeOriginLineThickness"/><attr format="color" name="domainOriginLineColor"/><attr format="color" name="rangeOriginLineColor"/><attr format="color" name="gridBackgroundColor"/><attr name="legendHeightSizeLayoutType"/><attr name="legendWidthSizeLayoutType"/><attr format="dimension|float|integer" name="legendHeight"/><attr format="dimension|float|integer" name="legendWidth"/><attr name="legendLayoutStyleX"/><attr name="legendLayoutStyleY"/><attr format="dimension|float|integer" name="legendPositionX"/><attr format="dimension|float|integer" name="legendPositionY"/><attr name="legendAnchorPosition"/><attr format="dimension" name="legendTextSize"/><attr format="color" name="legendTextColor"/><attr name="legendIconHeightSizeLayoutType"/><attr name="legendIconWidthSizeLayoutType"/><attr format="dimension|float|integer" name="legendIconHeight"/><attr format="dimension|float|integer" name="legendIconWidth"/><attr format="boolean" name="legendVisible"/><attr format="dimension" name="domainTickExtension"/><attr format="dimension" name="rangeTickExtension"/><attr format="boolean" name="showDomainLabels"/><attr format="boolean" name="showRangeLabels"/></declare-styleable>
+    <!-- From: file:/mnt/bamboo-ebs/bamboo-agent/build-dir/ANDROIDPLOT-BLG-DEP/androidplot-core/src/main/res/values/style.xml -->
+    <eat-comment/>
+    <style name="APDefacto">
+        <item name="gridPaddingTop">20dp</item>
+        <item name="gridPaddingBottom">20dp</item>
+        <item name="gridPaddingLeft">20dp</item>
+        <item name="gridPaddingRight">20dp</item>
+        <item name="labelTextSize">20sp</item>
+        <item name="rangeLabelTextSize">13sp</item>
+        <item name="domainLabelTextSize">13sp</item>
+        <item name="graphMarginTop">20dp</item>
+        <item name="graphMarginBottom">40dp</item>
+        <item name="graphMarginLeft">15dp</item>
+        <item name="graphMarginRight">10dp</item>
+        <item name="graphDomainLineThickness">1dp</item>
+        <item name="graphRangeLineThickness">1dp</item>
+        <item name="rangeTickLabelTextSize">15sp</item>
+        <item name="rangeOriginTickLabelTextSize">15sp</item>
+        <item name="domainTickLabelTextSize">15sp</item>
+        <item name="domainOriginTickLabelTextSize">15sp</item>
+        <item name="legendTextSize">15sp</item>
+        <item name="legendIconHeight">15dp</item>
+        <item name="legendIconWidth">15dp</item>
+        <item name="legendHeight">25dp</item>
+        <item name="legendAnchorPosition">right_bottom</item>
+        <item name="borderColor">@color/ap_transparent</item>
+    </style>
+    <style name="APDefacto.Dark">
+        <item name="android:background">@color/ap_black</item>
+        <item name="backgroundColor">@color/ap_black</item>
+        <item name="graphBackgroundColor">@color/ap_black</item>
+        <item name="gridBackgroundColor">@color/ap_charcoal</item>
+        <item name="graphDomainLineColor">@color/off_white</item>
+        <item name="graphRangeLineColor">@color/off_white</item>
+        <item name="rangeTickLabelTextColor">@color/off_white</item>
+        <item name="domainTickLabelTextColor">@color/off_white</item>
+        <item name="domainOriginTickLabelTextColor">@color/off_white</item>
+        <item name="rangeOriginTickLabelTextColor">@color/off_white</item>
+        <item name="domainOriginLineColor">@color/off_white</item>
+        <item name="rangeOriginLineColor">@color/off_white</item>
+        <item name="labelTextColor">@color/ap_white</item>
+        <item name="domainLabelTextColor">@color/ap_white</item>
+        <item name="rangeLabelTextColor">@color/ap_white</item>
+        <item name="legendTextColor">@color/ap_white</item>
+    </style>
+    <style name="APDefacto.Light">
+        <item name="android:background">@color/off_white</item>
+        <item name="backgroundColor">@color/off_white</item>
+        <item name="graphBackgroundColor">@color/off_white</item>
+        <item name="gridBackgroundColor">@color/ap_white</item>
+        <item name="graphDomainLineColor">@color/ap_gray</item>
+        <item name="graphRangeLineColor">@color/ap_gray</item>
+        <item name="rangeTickLabelTextColor">@color/ap_charcoal</item>
+        <item name="domainTickLabelTextColor">@color/ap_charcoal</item>
+        <item name="domainOriginTickLabelTextColor">@color/ap_charcoal</item>
+        <item name="rangeOriginTickLabelTextColor">@color/ap_charcoal</item>
+        <item name="domainOriginLineColor">@color/ap_charcoal</item>
+        <item name="rangeOriginLineColor">@color/ap_charcoal</item>
+        <item name="labelTextColor">@color/ap_black</item>
+        <item name="domainLabelTextColor">@color/ap_black</item>
+        <item name="rangeLabelTextColor">@color/ap_black</item>
+        <item name="legendTextColor">@color/ap_black</item>
+    </style>
+    <style name="FullScreenGraph">
+        <item name="gridPaddingTop">0dp</item>
+        <item name="gridPaddingBottom">0dp</item>
+        <item name="gridPaddingLeft">1dp</item>
+        <item name="gridPaddingRight">0dp</item>
+        <item name="gridMarginTop">0dp</item>
+        <item name="gridMarginBottom">0dp</item>
+        <item name="gridMarginLeft">0dp</item>
+        <item name="gridMarginRight">0dp</item>
+        <item name="graphMarginTop">0dp</item>
+        <item name="graphMarginBottom">0dp</item>
+        <item name="graphMarginLeft">0dp</item>
+        <item name="graphMarginRight">0dp</item>
+        <item name="graphHeightSizeLayoutType">fill</item>
+        <item name="graphWidthSizeLayoutType">fill</item>
+        <item name="graphHeight">0</item>
+        <item name="graphWidth">0</item>
+        <item name="graphDomainLineThickness">1dp</item>
+        <item name="graphLayoutStyleX">absolute_from_left</item>
+        <item name="graphLayoutStyleY">absolute_from_top</item>
+        <item name="graphRangeLineThickness">1dp</item>
+        <item name="graphAnchorPosition">left_top</item>
+        <item name="graphPositionX">0dp</item>
+        <item name="graphPositionY">0dp</item>
+        <item name="legendVisible">false</item>
+        <item name="domainTickLabelWidth">0dp</item>
+        <item name="rangeTickLabelWidth">0dp</item>
+    </style>
+    <style name="FullScreenGraph.Minimalist">
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="domainTickExtension">0dp</item>
+        <item name="rangeTickExtension">0dp</item>
+        <item name="showDomainLabels">false</item>
+        <item name="showRangeLabels">false</item>
+    </style>
+    <style name="FullScreenGraph.Minimalist.Dark">
+        <item name="graphDomainLineColor">@color/ap_white</item>
+        <item name="graphRangeLineColor">@color/ap_white</item>
+        <item name="backgroundColor">@color/ap_black</item>
+        <item name="gridBackgroundColor">@color/ap_black</item>
+        <item name="borderColor">@color/ap_transparent</item>
+    </style>
+    <style name="FullScreenGraph.Minimalist.Light">
+        <item name="graphDomainLineColor">@color/ap_black</item>
+        <item name="graphRangeLineColor">@color/ap_black</item>
+        <item name="backgroundColor">@color/ap_white</item>
+        <item name="gridBackgroundColor">@color/ap_white</item>
+        <item name="borderColor">@color/ap_transparent</item>
+    </style>
+</resources>
